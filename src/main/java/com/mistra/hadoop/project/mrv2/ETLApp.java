@@ -1,7 +1,5 @@
 package com.mistra.hadoop.project.mrv2;
 
-import com.mistra.hadoop.project.utils.GetPageId;
-import com.mistra.hadoop.project.utils.LogParser;
 import org.apache.commons.lang.StringUtils;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FileSystem;
