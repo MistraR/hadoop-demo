@@ -1,6 +1,5 @@
 package com.mistra.hadoop.project.mrv2;
 
-import com.imooc.bigdata.hadoop.project.utils.LogParser;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
