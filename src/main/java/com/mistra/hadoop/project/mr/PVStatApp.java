@@ -27,7 +27,7 @@ public class PVStatApp {
         if(fileSystem.exists(outputPath)) {
             fileSystem.delete(outputPath,true);
         }
-        // test
+        //
         Job job = Job.getInstance(configuration);
         job.setJarByClass(PVStatApp.class);
 
