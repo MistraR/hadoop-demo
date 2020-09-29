@@ -17,7 +17,7 @@ import java.io.IOException;
 
 public class PVStatApp {
 
-    // Driver端的代码：八股文
+    // Driver端的代码
     public static void main(String[] args) throws Exception{
         Configuration configuration = new Configuration();
 
@@ -27,7 +27,7 @@ public class PVStatApp {
         if(fileSystem.exists(outputPath)) {
             fileSystem.delete(outputPath,true);
         }
-        //
+
         Job job = Job.getInstance(configuration);
         job.setJarByClass(PVStatApp.class);
 
